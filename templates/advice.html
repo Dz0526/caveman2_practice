@@ -1,0 +1,12 @@
+{% extends "layouts/default.html" %}
+{% block title %}Welcome to Caveman2{% endblock %}
+{% block content %}
+<div id="contents">
+  {% for i in advices %}
+    <h1>{{i}}</h1>
+  {% endfor %}
+</div>
+<div id="main">
+  Welcome to <a href="http://8arrow.org/caveman/">Caveman2</a>!
+</div>
+{% endblock %}
